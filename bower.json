@@ -1,0 +1,27 @@
+{
+  "name": "my_portfolio",
+  "description": "portfolio",
+  "main": "index.js",
+  "authors": [
+    "Aman Babu Gautam"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.7",
+    "bootstrap": "^3.3.7",
+    "angular-ui-router": "^1.0.11",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.19.3",
+    "angular-animate": "^1.6.7",
+    "Morphext": "^2.4.4",
+    "animate.css": "^3.5.2"
+  }
+}

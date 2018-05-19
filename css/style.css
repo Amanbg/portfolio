@@ -1,0 +1,83 @@
+.setimage {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.setlogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 43%;
+    margin-top: 6%;
+}
+
+.text-class {
+    color: #f1e5e5;
+    margin-top: 24%;
+    font-family: Lustria;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.center {
+    padding-left: 29%;
+}
+
+.center-text {
+    padding-left: 40%;
+}
+
+.txtfamily {
+    color: #e83d3d;
+    font-family: Poiret_One;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.slide {
+    color: #ec1b1b;
+    font-family: Poiret_One;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Lustria;
+    src: url('../fonts/Lustria/Lustria-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poiret_One;
+    src: url('../fonts/Poiret_One/PoiretOne-Regular.ttf');
+}
+
+.footer {
+    background-color: rgba(70, 90, 99, 0.17);
+    color: #f3244a;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 8%;
+}
+
+.footertxt {
+    padding-top: 0.5%;
+    font-family: Poiret_One;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.padding {
+    padding-left: 2%;
+}
