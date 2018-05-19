@@ -20,16 +20,12 @@
     color: #f1e5e5;
     margin-top: 24%;
     font-family: Lustria;
-    font-weight: 600;
-    font-size: larger;
-}
-
-.center {
-    padding-left: 29%;
+    font-size: 45px;
+    text-align: center;
 }
 
 .center-text {
-    padding-left: 40%;
+    padding-left: 45%;
 }
 
 .txtfamily {
@@ -81,3 +77,17 @@
 .padding {
     padding-left: 2%;
 }
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: cornflowerblue; */
+}
+
+
+/* .name {
+    text-align: center;
+    margin-left: -43%;
+    font-size: 45px;
+} */

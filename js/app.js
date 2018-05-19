@@ -20,6 +20,4 @@ angular
             })
         $urlRouterProvider.otherwise('/')
     }])
-    .run(['$state', function($state) {
-
-    }])
+    .run(['$state', function($state) {}])

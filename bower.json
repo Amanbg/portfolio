@@ -22,6 +22,7 @@
     "moment": "^2.19.3",
     "angular-animate": "^1.6.7",
     "Morphext": "^2.4.4",
-    "animate.css": "^3.5.2"
+    "animate.css": "^3.5.2",
+    "particles.js": "^2.0.0"
   }
 }
