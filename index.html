@@ -24,7 +24,7 @@
                     <a href="#">About Me</a>
                 </li>
                 <li>
-                    <a href="#">Skills</a>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
@@ -92,6 +92,20 @@
 <script>
     particlesJS.load('particles-js', 'static/particles.json', function() {
         console.log('JSON loaded...')
+    })
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('li').hide();
+    });
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop()) {
+            $('li').show();
+            $('nav').addClass('black');
+        } else {
+            $('li').hide();
+            $('nav').removeClass('black');
+        }
     })
 </script>
 <script type="text/javascript">
