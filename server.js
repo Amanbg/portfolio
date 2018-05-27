@@ -4,9 +4,11 @@ const path = require('path')
 const bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.urlencoded({
+    extended: true
+}))
 
-const port = 5000
+const port = 8000
 app.use(express.static('../portfolio'))
 app.use(express.static('/img'))
 

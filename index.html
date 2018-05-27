@@ -13,26 +13,74 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <div id="particles-js" ui-view="mainContent" class="content-wrapper"></div>
+    <!-- <div class="wrapper">
+        <div ui-view="mainContent" class="content-wrapper"></div>
         <div id="footer" ui-view="footer" class="content-wrapper"></div>
+    </div> -->
+    <div id="particles-js">
+        <div class="col-md-12 text-format">
+            <h3>Hi,</h3>
+            <h2 class="t1">I'm Aman Babu Gautam</h2>
+            <div class="col-md-12">
+                <h3>
+                    <span id="js-rotating" class="center-text slide">Programmer, Web Developer, Learner</span>
+                </h3>
+            </div>
+            <div class="col-md-12 icons">
+                <span class="padding" title="Resume">
+                    <a href="../../static/Pellustro_Observations_061217.pdf" target="_blank">
+                        <i class="fa fa-black-tie fa-2x"></i>
+                    </a>
+                </span>
+                <span class="padding" title="E-mail">
+                    <a href="mailto:amanbabugautam@gmail.com">
+                        <i class="fa fa-envelope fa-2x"></i>
+                    </a>
+                </span>
+                <span class="padding" title="Github">
+                    <a href="https://github.com/AmanBabu" target="_blank">
+                        <i class="fa fa-github fa-2x"></i>
+                    </a>
+                </span>
+                <span class="padding" title="LinkedIn">
+                    <a href="https://www.linkedin.com/in/amanbabugautam/" target="_blank">
+                        <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                </span>
+                <span class="padding" title="Google Plus">
+                    <i class="fa fa-google-plus-official fa-2x"></i>
+                </span>
+            </div>
+        </div>
+        <div class="text-center footer">
+            <h4 class="footertxt">Coded with &hearts; by Aman Babu Gautam | &copy 2018</h4>
+        </div>
     </div>
 </body>
-
-<!-- <div id="particles-js"></div> -->
-
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/particles.js/particles.js"></script>
+<script>
+    particlesJS.load('particles-js', 'static/particles.json', function() {
+        console.log('JSON loaded...')
+    })
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#js-rotating").Morphext({
+            // The [in] animation type. Refer to Animate.css for a list of available animations.
+            animation: "fadeInRight",
+            // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+            separator: ",",
+            // The delay between the changing of each phrase in milliseconds.
+            speed: 2500
+        });
+    })
+</script>
 <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
 <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
-<script type="text/javascript" src="bower_components/particles.js/particles.js"></script>
-<script type="text/javascript">
-    particlesJS.load('particles-js', 'static/particles.json', function() {
-        console.log('callback - particles.js config loaded');
-    });
-</script>
 <script type="text/javascript" src="js/portfolio.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="bower_components/Morphext/dist/morphext.min.js"></script>
